@@ -11,7 +11,7 @@ import pandas as pd
 
 # Create a Dash app instance
 app = dash.Dash(__name__)
-
+server = app.server
 # Load the dataset:
 addmision_df = pd.read_csv(r"C:\Users\User\Desktop\GitHub-projects\projects\Data-Dives-Projects-Unleashed\Notebooks\course1\Admission_Predict_cleaned.csv")
 
