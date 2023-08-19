@@ -9,7 +9,7 @@ from dash.dependencies import Input, Output, State
 # Replace this with your actual dataframe
 # sampled_df = pd.read_csv('path_to_sampled_df.csv')  # Load your data here
 
-sampled_df = pd.read_csv(r'https://raw.githubusercontent.com/ZaidAlmelhem/Dashboards/main/Distribution%20of%20Review%20Scores%20for%20Mobile%20Apps/google_play_store_reviews.csv')
+sampled_df = pd.read_csv(r'https://raw.githubusercontent.com/ZaidAlmelhem/Dashboards/main/Distribution%20of%20Review%20Scores%20for%20Mobile%20Apps/sampled_goolge_play_apps.csv')
 
 # Create a Dash app
 app = dash.Dash(__name__)
