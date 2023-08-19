@@ -5,6 +5,9 @@ import dash
 from dash import dcc, html
 from dash.dependencies import Input, Output
 
+df_reviews = pd.read_csv(r'https://raw.githubusercontent.com/ZaidAlmelhem/Dashboards/main/Distribution%20of%20Review%20Scores%20for%20Mobile%20Apps/google_play_store_reviews.csv')
+
+
 # Create Dash app
 app = dash.Dash(__name__)
 server = app.server
