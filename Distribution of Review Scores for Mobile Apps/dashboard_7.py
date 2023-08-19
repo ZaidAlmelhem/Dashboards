@@ -11,7 +11,7 @@ from io import BytesIO
 # Replace this with your actual dataframe
 # sampled_df = pd.read_csv('path_to_sampled_df.csv')  # Load your data here
 
-#sampled_df = pd.read_csv(r'https://raw.githubusercontent.com/ZaidAlmelhem/Dashboards/main/Distribution%20of%20Review%20Scores%20for%20Mobile%20Apps/sampled_bertopic_df.csv')
+sampled_df = pd.read_csv(r'https://raw.githubusercontent.com/ZaidAlmelhem/Dashboards/main/Distribution%20of%20Review%20Scores%20for%20Mobile%20Apps/sampled_bertopic_df.csv')
   
 # Create a Dash app
 app = dash.Dash(__name__)
