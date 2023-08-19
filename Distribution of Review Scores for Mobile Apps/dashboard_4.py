@@ -12,7 +12,7 @@ sampled_df = pd.read_csv(r'https://raw.githubusercontent.com/ZaidAlmelhem/Dashbo
 
 # Create a Dash app
 app = dash.Dash(__name__)
-server = server.app
+server = app.server
 
 # Layout of the app
 app.layout = html.Div([
