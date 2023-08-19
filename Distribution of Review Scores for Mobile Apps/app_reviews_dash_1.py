@@ -11,7 +11,7 @@ df_reviews = pd.read_csv(r'https://raw.githubusercontent.com/ZaidAlmelhem/Dashbo
 
 # Create a Dash app
 app = dash.Dash(__name__)
-
+server = app.server
 # Define the layout of the app
 app.layout = html.Div([
     html.H1("Distribution of Review Scores for Mobile Apps"),
