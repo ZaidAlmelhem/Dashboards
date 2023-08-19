@@ -6,3 +6,4 @@ ipywidgets
 pandas
 dash
 gunicorn
+wordcloud
