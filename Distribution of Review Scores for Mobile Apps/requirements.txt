@@ -9,5 +9,4 @@ gunicorn
 wordcloud
 scikit-learn
 lime
-warnings
 joblib
