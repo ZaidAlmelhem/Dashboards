@@ -4,11 +4,9 @@ import plotly.graph_objs as go
 import numpy as np
 import matplotlib.pyplot as plt
 from lime import lime_tabular
-import warnings
 import pandas as pd
 import joblib
 from sklearn.model_selection import train_test_split
-warnings.filterwarnings('ignore')
 
 # Load the saved model from the file
 filename = r'final_model_NAS.pkl'
